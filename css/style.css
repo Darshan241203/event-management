@@ -939,6 +939,33 @@ body.offcanvason .pwe-nav-toggle {
 .list-item:hover{
     color: #a2783a;
 }
+@media only screen and (max-width: 400px) {
+  
+  .links ul{
+    margin-right: 30px;
+    text-align: center;
+}
+.slider-img , .pwe-hero{
+    height: 45vh;
+}
+.desc{
+    display: none;
+}
+#pwe-hero {
+    width: 100%;
+    float: left;
+    margin-bottom: 0;
+    clear: both;
+}
+}
+@media only screen and (max-width: 780px) {
+  
+  .links ul{
+    margin-right: 30px;
+    text-align: center;
+}
+}
+
 .pwe-post-heading {
     color: #000;
     font-family: 'Nunito Sans', sans-serif;
